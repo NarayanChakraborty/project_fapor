@@ -171,7 +171,7 @@ p {
 /*============== slider CSS END ====================================*/
 
 
-/*============== 4: section Header CSS =============================*/
+/*============== 4: Service Section CSS =============================*/
 
 .section-header {
     margin: 30px 0;
@@ -204,9 +204,8 @@ p {
     font-family: 'Open Sans', sans-serif;
    
 }
-/*============== section CSS END ===================================*/
 
-/*============== 5: feature section CSS =============================*/
+
 .feature-item{
     margin-bottom: 50px;
 }
@@ -254,9 +253,10 @@ p {
     margin: 0px;
     
 }
-/*============== section CSS END ===================================*/
+/*============== Service Section CSS END ===================================*/
 
-/*============== 6: section Header CSS =============================*/
+
+/*============== 5:Managing Section CSS =============================*/
 
 
 #we-are-id{
@@ -311,10 +311,22 @@ box-shadow: 0px 2px 21px 1px rgba(0,0,0,0.75);
    
    
 }
-/*============== section CSS END ===================================*/
+/*============== Managing Section CSS End =============================*/
 
-/*============== 4: section Header CSS =============================*/
-/*============== section CSS END ===================================*/
+/*============== 6:Recent Works Section CSS =============================*/
+.filter-btn a{
+    text-decoration: none;
+    padding:20px;
+    color:#000;
+}
+.filter-btn a:active:after{
+   color:#b5a263;
+}
+
+
+/*============== Recent Works Section CSS END ===================================*/
+
+
 
 /*============== 4: section Header CSS =============================*/
 /*============== section CSS END ===================================*/
