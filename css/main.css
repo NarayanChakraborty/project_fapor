@@ -1,0 +1,324 @@
+/* ==========================================================================
+ Name: Fapor Html Template
+ Author: Nazmus Shakib
+ Author URL: www.nazmusshakib.com
+ Version: 1.0
+========================================================================== */
+
+
+/*==========================================================================
+1: Basic CSS Section
+2: Header CSS Section
+3: Slider CSS Section
+4: section Header CSS 
+5: Header CSS Section
+6: Header CSS Section
+7: Header CSS Section
+============================================================================*/
+
+
+/*============ 1: Basic CSS Section ================ */
+
+@font-face {
+    font-family: fapor-heading;
+    src: url(../fonts/Nexa-Bold.otf);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    color: #24282f;
+}
+.no-padding {
+    padding: 0;
+}
+.no-margin {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #24282f;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/*============ Basic CSS End  ================ */
+
+
+/*============ 2: Header CSS Section ================ */
+
+#header {
+    background: #24282f;
+}
+#header .logo {
+    margin: 20px 0;
+}
+#header .menu ul {
+    margin-left: 40%;
+}
+#header .menu ul li {
+    display: inline-block;
+}
+#header .menu ul li a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    padding: 18px;
+}
+#header .menu ul li a:after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 55px;
+    background-color: #b5a263;
+    bottom: 0;
+    left: 10px;
+    opacity: 0;
+    transition: 0.8s;
+}
+#header .menu ul li a:hover:after {
+    opacity: 1;
+}
+
+/*============== Header CSS END =============================*/
+
+
+/*============ 3: Slider CSS Section ================ */
+
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none;
+}
+.slider-item {
+    position: relative;
+}
+.slider-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(36, 40, 47, 0.9);
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.slider-item h3 {
+    color: #fff;
+    font-size: 60px;
+    line-height: 24px;
+    font-family: fapor-heading;
+    margin: 30px 0;
+}
+.slider-item p {
+    color: #fff;
+}
+.slider-item p a {
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 25px;
+    display: inline-block;
+    background-color: #b5a263;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.slider-item p a:hover {
+    color: #24282f;
+    text-decoration: none;
+    padding: 13px 25px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 30px;
+}
+.carousel-caption {
+    bottom: 35%;
+}
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-prev,
+.carousel-control .icon-next {
+    padding: 20px 5px;
+    margin-top: -15px;
+    font-size: 20px;
+    background-color: #000;
+    line-height: 0;
+    text-align: center;
+}
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+    margin-left: -50%;
+}
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+    margin-right: -49%;
+}
+
+/*============== slider CSS END ====================================*/
+
+
+/*============== 4: section Header CSS =============================*/
+
+.section-header {
+    margin: 30px 0;
+}
+.section-header h2 {
+    font-size: 24px;
+    line-height: 20px;
+    vertical-align: 25px;
+    color: #24282f;
+    text-transform: uppercase;
+    margin: 40px 0;
+    position: relative;
+}
+.section-header h2:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 90px;
+    background-color: #b5a263;
+    left: 45%;
+    top: 35px;
+}
+.section-header p {
+    font-size: 14px;
+    line-height: 24px;
+    vertical-align: 25px;
+    color: #24282f;
+    text-transform: inherit;
+    margin: 20px 0;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+/*============== section CSS END ===================================*/
+
+/*============== 5: feature section CSS =============================*/
+.feature-item{
+    margin-bottom: 50px;
+}
+.feature-item .icon{
+    height: 60px;
+    width: 60px;
+     border: 2px solid#b5a263;
+    border-radius: 50%;
+    margin-left: 44%;
+    transition: 0.5s;
+   
+}
+.feature-item .icon:hover{
+    background-color: #b5a263;
+}
+.feature-item .icon i:hover{
+   
+    color: #000;    
+}
+
+.feature-item .icon i{
+    
+    font-size: 35px;
+    color: #b5a263;
+    margin: 15px auto;
+    text-align: center;
+    line-height: 30px;
+}
+
+.feature-item  h3 {
+    font-size: 16px;
+    line-height: 23px;
+    vertical-align: 24px;
+    color: #24282f;
+    text-transform: uppercase;
+    margin: 20px 0;
+    
+}
+.feature-item  p {
+    font-size: 13px;
+    line-height: 24px;
+    vertical-align: 24px;
+    color: #24282f;
+    text-transform: capitalize;
+    margin: 0px;
+    
+}
+/*============== section CSS END ===================================*/
+
+/*============== 6: section Header CSS =============================*/
+
+
+#we-are-id{
+    background-color: #f7f7f7;
+    padding: 30px 0;
+}
+#we-are-id .we-are-manage{
+    background-color: #fff;
+    -webkit-box-shadow: 0px 2px 21px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 21px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 21px 1px rgba(0,0,0,0.75);
+    margin: 5% 0;
+}
+
+.section-header.we-are-con{
+    text-align: left;
+    margin-left: 20px;
+}
+.section-header.we-are-con h2{
+    margin-top: 15%;
+
+}
+.section-header.we-are-con p{
+    padding-right: 15%;
+
+}
+.section-header.we-are-con h2:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 90px;
+    background-color: #b5a263;
+    left: 0%;
+    top: 35px;
+}
+.section-header.we-are-con p a{
+   display: inline-block;
+    padding: 10px 25px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    border: 1px solid#b5a263;
+    text-decoration: none;
+    border-radius: 30px;
+    color: #b5a263;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+.section-header.we-are-con p a:hover{
+   background-color: #b5a263;
+    color: #fff;
+   
+   
+}
+/*============== section CSS END ===================================*/
+
+/*============== 4: section Header CSS =============================*/
+/*============== section CSS END ===================================*/
+
+/*============== 4: section Header CSS =============================*/
+/*============== section CSS END ===================================*/
+
+/*============== 4: section Header CSS =============================*/
+/*============== section CSS END ===================================*/
+
