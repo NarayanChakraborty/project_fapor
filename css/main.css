@@ -559,5 +559,40 @@ background-color:#000;
 }
 /*============== Sub Footer section  CSS END ===================================*/
 /*============== Footer section  CSS Starts ===================================*/
-
+#footer-id{
+    background-color:#24282f;
+}
+.copy-right-icon {
+	padding: 3% 5% 2% 5%;
+}
+.copy-right-icon p{
+    color:#52565d;
+}
+.footer-icon{
+    padding:8% 0;
+}
+.footer-icon ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 2%;
+    
+}
+.footer-icon ul li a {
+	font-size: 12px;
+	line-height: 20px;
+	padding: 6px 12px;
+	display: inline-block;
+	border-radius: 30px;
+	border: 1px solid #6e7279;
+	color: #6e7279;
+	background-color: transparent;
+	text-transform: uppercase;
+	/* margin: 35px 0 40px 0; */
+	text-decoration: none;
+	transition: 0.5s;
+}
+.footer-icon ul li a:hover{
+    background-color:#b5a263;
+    color:#fff;
+} 
 /*============== Footer section  CSS END ===================================*/
