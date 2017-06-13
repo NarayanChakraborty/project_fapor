@@ -206,10 +206,11 @@ p {
 }
 
 
-.feature-item{
-    margin-bottom: 50px;
+.service-item {
+	margin-bottom: 50px;
+	margin-left: 15%;
 }
-.feature-item .icon{
+.service-item .icon{
     height: 60px;
     width: 60px;
      border: 2px solid#b5a263;
@@ -218,15 +219,15 @@ p {
     transition: 0.5s;
    
 }
-.feature-item .icon:hover{
+.service-item .icon:hover{
     background-color: #b5a263;
 }
-.feature-item .icon i:hover{
+.service-item .icon i:hover{
    
     color: #000;    
 }
 
-.feature-item .icon i{
+.service-item .icon i{
     
     font-size: 35px;
     color: #b5a263;
@@ -235,7 +236,7 @@ p {
     line-height: 30px;
 }
 
-.feature-item  h3 {
+.service-item  h3 {
     font-size: 16px;
     line-height: 23px;
     vertical-align: 24px;
@@ -244,7 +245,7 @@ p {
     margin: 20px 0;
     
 }
-.feature-item  p {
+.service-item  p {
     font-size: 13px;
     line-height: 24px;
     vertical-align: 24px;
@@ -376,9 +377,10 @@ box-shadow: 0px 2px 21px 1px rgba(0,0,0,0.75);
 /*============== 7:Counter Section CSS Start ===================================*/
 #counter-id{
 background-color:#000;
-    padding:30px 0;
+    padding:40px 0;
     
 }
+
 .counter-main h2{
     color:#a2925c;
     margin-bottom: 16px;
@@ -411,6 +413,101 @@ background-color:#000;
 }
 
 /*============== Counter section CSS END ===================================*/
-/*============== 4: section Header CSS =============================*/
-/*============== section CSS END ===================================*/
+/*============== 8:Team section  CSS =============================*/
+#team-id {
+	background-color: #f7f7f7;
+	padding-bottom: 5%;
+}
+.section-header.team {
+   padding-bottom: 20px;
+}
+.team-item {
+	padding-bottom: 30%;
+	margin-left: 15%;
+}
+.team-item .team-icon{
+    margin-top:20%;
+}
+.team-item .team-icon img{
+    
+}
+.team-item .team-des{
+    
+}
+.team-item .team-des p{
+       font-size:14px;
+    line-height: 24px;
+    vertical-align: 25px;
+}
+.team-item .team-des h4{
+    color:#b5a263;
+    font-size:14px;
+    line-height: 24px;
+    vertical-align: 25px;
+}
+.team-item .team-des ul li{
+    display:inline-block;
+    
+}
+.team-item .team-des ul li a{
+    text-decoration: none;
+    padding:5px;
+    color:#24282f;
+}
 
+/*============== Team section  CSS END ===================================*/
+.section-header.feature {
+	margin: 10% 0 13% 0;
+}
+
+.feature-item {
+	margin-bottom:20%;
+	margin-left: 15%;
+}
+.feature-icon{
+	
+	display: inline-block;
+	height: 55px;
+	width: 55px;
+    margin:5px 0px 25px 0px;
+	border: 1px solid #b5a263;
+	border-radius: 50%;
+    float:left;
+    
+}
+
+.feature-icon img{
+    padding:25%;
+   
+}
+.feature-des{
+    margin-left: 3%;
+}
+.feature-des p{
+    padding-right:30%;
+}
+
+.feature-btn{
+    margin-top:40px;
+    margin-bottom:40px;
+   
+}
+
+.feature-btn a:hover{
+   background-color:#b5a263; 
+    color: #000;    
+}
+.feature-btn a {
+	font-size: 14px;
+	line-height: 23px;
+	padding: 10px 50px;
+	display: inline-block;
+	border-radius: 30px;
+	border: 1px solid #b5a263;
+	color:#b5a263 ;
+	background-color:transparent;
+	text-transform: uppercase;
+	margin: 35px 0 40px 0;
+	text-decoration: none;
+     transition:0.5s;
+}
