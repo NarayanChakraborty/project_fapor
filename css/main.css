@@ -520,13 +520,44 @@ background-color:#000;
 .client-logo ul li{
     list-style: none;
     display: inline-block;
-    margin:20px 35px;
+    padding:5% 3%;
 }
 .client-logo ul li a{
     text-decoration: none;
 }
 /*============== Client section  CSS END ===================================*/
 /*============== Sub Footer section  CSS END ===================================*/
-
-
+#sub-footer-id{
+    background-color:#2b2f35;
+}
+.sfooter-item {
+	padding: 4% 5% 0 5%;
+}
+.sfooter-item h2{
+    margin-bottom: 5%;
+    color:#877c54;
+    font-size:14px;
+    line-height: 24px;
+    vertical-align: 50px;
+    text-transform: uppercase;
+}
+.sfooter-item p{
+    color:#6e7279;
+    font-size:14px;
+    line-height: 24px;
+    vertical-align: 25px;
+}
+.form-control.sub-footer-input{
+    background-color: transparent;
+    border-radius:0;
+}
+.form-control.sub-footer-submit{
+    background-color: #b5a263;
+    color:#fff;
+    border-radius:0;
+    border:none;
+}
 /*============== Sub Footer section  CSS END ===================================*/
+/*============== Footer section  CSS Starts ===================================*/
+
+/*============== Footer section  CSS END ===================================*/
