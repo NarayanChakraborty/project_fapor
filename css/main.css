@@ -456,6 +456,7 @@ background-color:#000;
 }
 
 /*============== Team section  CSS END ===================================*/
+/*============== Feature section  CSS Start ===================================*/
 .section-header.feature {
 	margin: 10% 0 13% 0;
 }
@@ -511,3 +512,21 @@ background-color:#000;
 	text-decoration: none;
      transition:0.5s;
 }
+
+/*============== Feature section  CSS END ===================================*/
+/*============== Clients Feedback section  CSS Start ===================================*/
+/*============== Clients Feedback section  CSS END ===================================*/
+/*============== Client section  CSS start ===================================*/
+.client-logo ul li{
+    list-style: none;
+    display: inline-block;
+    margin:20px 35px;
+}
+.client-logo ul li a{
+    text-decoration: none;
+}
+/*============== Client section  CSS END ===================================*/
+/*============== Sub Footer section  CSS END ===================================*/
+
+
+/*============== Sub Footer section  CSS END ===================================*/
