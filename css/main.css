@@ -208,16 +208,16 @@ p {
 
 .service-item {
 	margin-bottom: 50px;
-	margin-left: 15%;
+	
 }
-.service-item .icon{
-    height: 60px;
-    width: 60px;
-     border: 2px solid#b5a263;
-    border-radius: 50%;
-    margin-left: 44%;
-    transition: 0.5s;
-   
+.service-item .icon {
+	height: 60px;
+	width: 60px;
+	border: 2px solid#b5a263;
+	border-radius: 50%;
+	margin: 0% auto;
+	transition: 0.5s;
+	/* text-align: center; */
 }
 .service-item .icon:hover{
     background-color: #b5a263;
@@ -245,14 +245,13 @@ p {
     margin: 20px 0;
     
 }
-.service-item  p {
-    font-size: 13px;
-    line-height: 24px;
-    vertical-align: 24px;
-    color: #24282f;
-    text-transform: capitalize;
-    margin: 0px;
-    
+.service-item p {
+	font-size: 13px;
+	line-height: 24px;
+	vertical-align: 24px;
+	color: #24282f;
+	text-transform: capitalize;
+	padding: 0px 14%;
 }
 /*============== Service Section CSS END ===================================*/
 
@@ -278,11 +277,15 @@ box-shadow: 0px 2px 21px 1px rgba(0,0,0,0.75);
 }
 .section-header.we-are-con h2{
     margin-top: 15%;
-
+    text-transform: uppercase;
+    font-size:24px;
+    line-height: 20px;
+    vertical-align: 25px;
+    
 }
 .section-header.we-are-con p{
     padding-right: 15%;
-
+    font-family: 'Open Sans', sans-serif;
 }
 .section-header.we-are-con h2:after {
     content: "";
@@ -319,9 +322,15 @@ box-shadow: 0px 2px 21px 1px rgba(0,0,0,0.75);
     text-decoration: none;
     padding:20px;
     color:#000;
+    text-transform: uppercase;
 }
-.filter-btn a:hover:after{
+.filter-btn a:hover{
    color:#b5a263;
+    cursor: pointer;
+}
+.filter-btn a:active:after{
+   color:#b5a263;
+    
 }
 .item-box{
     position: relative;
@@ -422,8 +431,8 @@ background-color:#000;
    padding-bottom: 20px;
 }
 .team-item {
-	padding-bottom: 30%;
-	margin-left: 15%;
+	padding-left: 8%;
+	margin-bottom: 35%;
 }
 .team-item .team-icon{
     margin-top:20%;
@@ -515,6 +524,20 @@ background-color:#000;
 
 /*============== Feature section  CSS END ===================================*/
 /*============== Clients Feedback section  CSS Start ===================================*/
+#client-slider{
+    background-color:#f7f7f7;
+    padding:5% 0;
+}
+.item-slide{
+    padding:0 15%;
+}
+.item-slide img{
+    margin:0 auto;
+}
+.owl-carousel .owl-item img {
+	display: block;
+	width: auto;
+}
 /*============== Clients Feedback section  CSS END ===================================*/
 /*============== Client section  CSS start ===================================*/
 .client-logo ul li{
@@ -582,7 +605,7 @@ background-color:#000;
 	line-height: 20px;
 	padding: 6px 12px;
 	display: inline-block;
-	border-radius: 30px;
+	border-radius: 50%;
 	border: 1px solid #6e7279;
 	color: #6e7279;
 	background-color: transparent;
